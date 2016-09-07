@@ -1,0 +1,24 @@
+Input Tree:
+
+              50
+           /     \
+          30      70
+         /  \    /  \
+       20   40  60   80 
+       
+Output Inorder Traverse:
+
+20
+30
+40
+50
+60
+70
+80
+
+Time Complexity of Insert an item: 
+
+The worst case time complexity of search and insert operations is O(h) 
+where h is height of Binary Search Tree. In worst case, we may have to 
+travel from root to the deepest leaf node. The height of a skewed tree 
+may become n and the time complexity of search and insert operation may become O(n).

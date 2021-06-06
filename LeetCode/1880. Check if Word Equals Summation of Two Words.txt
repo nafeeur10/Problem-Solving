@@ -1,0 +1,40 @@
+/*
+ Problem Name: 1880. Check if Word Equals Summation of Two Words
+ Link: https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/
+*/
+
+/* 
+ Solution with Javascript
+*/
+
+/**
+ * @param {string} firstWord
+ * @param {string} secondWord
+ * @param {string} targetWord
+ * @return {boolean}
+ */
+
+function wordToValue(word)
+{
+    let wordValue = '';
+
+    for(let i = 0; i < word.length; i++)
+    {
+        let a = word.charCodeAt(i) - 97;
+        wordValue+=(String) (a);
+    }
+    return (Number)(wordValue);
+}
+
+ var isSumEqual = function(firstWord, secondWord, targetWord) {
+    let firstWordValue = wordToValue(firstWord);
+    let secondWordValue = wordToValue(secondWord);
+    let targetWordValue = wordToValue(targetWord);
+
+    if(firstWordValue + secondWordValue == targetWordValue)
+    return true;
+    else
+    return false;
+};
+
+

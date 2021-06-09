@@ -1,0 +1,31 @@
+/*
+Problem Link: https://leetcode.com/problems/day-of-the-year/
+Language: Javascript
+*/
+
+/**
+ * @param {string} date
+ * @return {number}
+ */
+var dayOfYear = function(date) {
+    let dateSplit = date.split('-');
+    
+    let year = parseInt(dateSplit[0]);
+    let month = parseInt(dateSplit[1]);
+    let day = parseInt(dateSplit[2]);
+    
+    let ansDay = 0;
+    if((year%400 == 0 || (year%4==0 && year%100!=0)) && month > 2) {
+        ansDay++;
+    }
+    
+    let monthDay = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    
+    for(let i = 0; i < month-1; i++)
+    {
+        ansDay+=monthDay[i];        
+    }
+    
+    return ansDay+day;
+};
+

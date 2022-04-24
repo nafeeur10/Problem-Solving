@@ -1,6 +1,8 @@
 ## Monotonic Stack 🔭
 
 Monotonic হলো এমন একটা লিস্ট অথবা ফাঙ্কশন যেটা সব সময় হয় Increasing অথবা Decreasing হবে। তাই মোনোটোনিক স্ট্যাক এর ও এই রকম বৈশিষ্ট হবে।  
+
+# Stack = LIFO (Last in First out)
 <!--
 **nafeeur10/nafeeur10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

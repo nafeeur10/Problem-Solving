@@ -1,18 +1,6 @@
 ## Monotonic Stack 🔭
 
 Monotonic হলো এমন একটা লিস্ট অথবা ফাঙ্কশন যেটা সব সময় হয় Increasing অথবা Decreasing হবে। তাই মোনোটোনিক স্ট্যাক এর ও এই রকম বৈশিষ্ট হবে।  
-
-- 🔭 I’m currently working on [VantageSportz](https://vantage.com/)
-- 🌱 Learning System Design, Javascript, PHP and so on...
-- 😄 I like to Solve Problems and Healthy competition with Others. 
-- 💬 Ask me about Books.
-- 📫 How to reach me: inafeeur@gmail.com
-- 💪 Face the Fear
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nafeeur10&theme=blue-green&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nafeeur10)](https://github.com/anuraghazra/github-readme-stats)
-
-
 <!--
 **nafeeur10/nafeeur10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

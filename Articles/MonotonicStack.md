@@ -38,7 +38,7 @@ Stack:
 ```
 
 2nd Step:
-Take 1 and push int Stack
+Take 1 and push into Stack
 
 ```
 List

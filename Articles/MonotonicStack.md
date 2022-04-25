@@ -234,6 +234,10 @@ Our Resulting Increasing Monotonic Stack is:
 | 1 | 3 | 5 | 6 |   |   |
 -------------------------
 ```
+
+Real life example:
+Suppose, যদি আমরা কোন একটা নির্দিষ্ট সময়ের weather ফোরকাস্ট এর সর্বোচ্চ এবং সর্বনিম্ন Weather চাই তখন এই এলগোরিদম ব্যবহার করতে পারি। 
+
 <!--
 **nafeeur10/nafeeur10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
